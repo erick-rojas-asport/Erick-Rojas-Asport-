@@ -1,0 +1,70 @@
+.contenedor
+{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                        "nav    nav    nav   "
+                        "section1 section2 ads"
+                        "foot   foot    foot"
+                        "face   rrss    yutu";
+}
+.contenedor .header
+{
+    background-color: rgb(31, 215, 135);
+    grid-column: header;
+
+}
+.contenedor .nav
+{
+    background-color: burlywood;
+    grid-column: nav;
+}
+.contenedor .section1
+{
+    background-color: rgb(106, 0, 235);
+    grid-column: section1;
+}
+.contenedor .section2
+{
+    background-color: rgb(106, 0, 235);
+    grid-column: section2;
+}
+.contenedor .ads
+{
+    background-color: rgb(255, 39, 172);
+    grid-column: ads;
+}
+.contenedor .ads .hijo
+{
+ background-color: brown;
+ grid-column: hijo;
+}
+.contenedor .foot
+{
+    background-color: rgb(145, 255, 85);
+    grid-column: foot;
+}
+.contenedor .face
+{
+    background-color: rgb(29, 0, 160);
+    grid-column: face;
+}
+
+.contenedor .rrss
+{
+    background-color: rgb(245, 255, 98);
+    grid-column: rrss;
+}
+.contenedor .yutu
+{
+    background-color: rgb(133, 0, 0);
+    grid-column: yutu;
+}
+
+
